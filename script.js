@@ -17,7 +17,9 @@ sumbitBtn.addEventListener("click", async () => {
             <h2>${data.location.name}, ${data.location.country}</h2>
             <p>Temperature: ${data.current.temp_c} °C</p>
             <p>Clouds: ${data.current.cloud}</p>
-            <p>Condition: ${data.current.condition.text} <img alt="" src="${data.current.condition.icon}"/></p>
+            <span style="display: flex; align-items: center; gap: 6px;">
+                <p>Condition: ${data.current.condition.text} </p><img style="height: 32px;" alt="" src="${data.current.condition.icon}"/>
+            </span>
             <p>Wind: ${data.current.wind_kph} km/h, direction - ${data.current.wind_dir}</p>
         </div>
         `
@@ -27,3 +29,4 @@ sumbitBtn.addEventListener("click", async () => {
     }
 
 })
+
