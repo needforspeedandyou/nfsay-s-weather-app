@@ -6,7 +6,7 @@ const API_KEY = "5022ba61d87c403387a95522252508"
 sumbitBtn.addEventListener("click", async () => {
     const city = cityInput.value
     try {
-        const res = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`)
+        const res = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`)
 
         if (!res) throw new Error("City is not found")
 
@@ -25,4 +25,5 @@ sumbitBtn.addEventListener("click", async () => {
     } catch (error) {
         console.log(error)
     }
+
 })
