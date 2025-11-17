@@ -1,44 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>NFSAY's Weather App</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>NFSAY's Weather App</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row row-1">
-            <div class="element element-1">
+    <body>
+        <div class="container">
+            <div class="">
                 <h1>NFSAY's Weather App</h1>
             </div>
-            <div class="element element-2">
-                <p>made with <img src="assets/Icon.svg" alt="<3"></p>
-            </div>
-        </div>
-        <div class="row row-2">
-            <div class="element element-1">
+            <div class="main">
                 <div class="form">
-                    <input placeholder="Enter city name..." type="text" name="City" id="cityInput">
+                    <input placeholder="Enter city name..." type="text" name="City" id="cityInput" />
                     <button id="sumbitBtn">Submit</button>
                 </div>
                 <div id="weather"></div>
-            </div>
-            <div class="element element-2">
-                <h2>Updates:</h2>
-                <ul class="updates-block">
-                    <li class="update">
-                        <p class="update-number">v0.1</p>
-                        <p class="update-description">Created website</p>
-                    </li>
-                </ul>
+                <div class="updates-section">
+                    <h2>Updates:</h2>
+                    <ul class="updates-block">
+                        <li class="update">
+                            <p class="update-number">v0.2</p>
+                            <p class="update-description">Added adaptation and new design</p>
+                        </li>
+                        <li class="update">
+                            <p class="update-number">v0.1</p>
+                            <p class="update-description">Created website</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="script.js"></script>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
