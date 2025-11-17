@@ -1,4 +1,4 @@
 NFSAY’s Weather App is a simple web application that allows users to check real-time weather conditions in any city around the world.
 Based on **WeatherAPI.com**
 
-https://nfsaysweatherapp.netlify.app/
+Watch demo: https://nfsaysweatherapp.netlify.app/
